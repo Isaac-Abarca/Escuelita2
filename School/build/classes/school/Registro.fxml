@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="506.0" prefWidth="455.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="school.RegisControllers">
+   <children>
+      <Label layoutX="184.0" layoutY="26.0" text="Registro">
+         <font>
+            <Font name="Javanese Text" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUserName" layoutX="102.0" layoutY="134.0" prefHeight="31.0" prefWidth="252.0" />
+      <TextField fx:id="txtPasword" layoutX="102.0" layoutY="230.0" prefHeight="31.0" prefWidth="252.0" />
+      <TextField fx:id="txtPaswordVerific" layoutX="102.0" layoutY="327.0" onKeyReleased="#comprobarPasword" prefHeight="31.0" prefWidth="252.0" />
+      <Button layoutX="255.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#Registro" prefHeight="44.0" prefWidth="99.0" text="Registrarce" />
+      <Label fx:id="lbCoincidenPasword" layoutX="102.0" layoutY="372.0" prefHeight="21.0" prefWidth="117.0" />
+      <Label layoutX="102.0" layoutY="106.0" text="Nombre usuario" />
+      <Label layoutX="105.0" layoutY="203.0" text="Contraseña:" />
+      <Label layoutX="105.0" layoutY="295.0" text="Verifique contrseña:" />
+   </children>
+</AnchorPane>
